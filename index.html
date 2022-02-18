@@ -13,29 +13,23 @@
       <h1>Pokedex</h1>
     </header>
     <main>
-      <div class="poke-card">
+      <div class="poke-card oculto">
         <div class="poke-ids">
-          <p class="id">#007</p>
-          <h2>Poke-Name</h2>
+          <p class="id"></p>
+          <h2 class="nombre"></h2>
         </div>
-        <img
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png"
-          alt="poke info"
-        />
+        <img class="poke-imagen" src="" alt="" />
         <div class="poke-info">
-          <div class="poke-atributos">type: electric</div>
-          <div class="poke-atributos">height: 34</div>
-          <div class="poke-atributos">weight: 23</div>
-          <div class="poke-atributos">hp: 32</div>
-          <div class="poke-atributos">attack: 32</div>
-          <div class="poke-atributos">defense: 32</div>
-          <div class="poke-atributos">sa: 10</div>
-          <div class="poke-atributos">sd:10</div>
-          <div class="poke-atributos">speed: 32</div>
+          <div class="poke-atributos tipo"></div>
+          <div class="poke-atributos altura"></div>
+          <div class="poke-atributos peso"></div>
+          <div class="poke-atributos vida"></div>
+          <div class="poke-atributos ataque"></div>
+          <div class="poke-atributos defensa"></div>
         </div>
       </div>
     </main>
-    <div class="pagination">
+    <div class="paginacion">
       <ul class="lista-pokemones">
         <li class="lista-pokemon">pokemon</li>
         <li class="lista-pokemon">pokemon</li>
@@ -48,9 +42,10 @@
         <li class="lista-pokemon">pokemon</li>
       </ul>
       <div class="botones">
-        <button>anterior</button>
-        <button>siguiente</button>
+        <button class="btn anterior">prev</button>
+        <button class="btn siguiente">next</button>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
