@@ -20,7 +20,7 @@ main {
   flex-grow: 1;
 }
 
-.poke-card {
+.poke-contenedor {
   display: flex;
   align-items: center;
   flex-direction: column;
