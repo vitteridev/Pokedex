@@ -14,7 +14,7 @@ const $botonera = document.querySelector(".lista-pokemones");
 const $btnSiguiente = document.querySelector(".siguiente");
 const $btnAnterior = document.querySelector(".anterior");
 
-const $contenedorPokemon = document.querySelector(".poke-card");
+const $contenedorPokemon = document.querySelector(".poke-contenedor");
 const $idPokemon = document.querySelector(".id");
 const $nombrePokemon = document.querySelector(".nombre");
 const $imagenPokemon = document.querySelector(".poke-imagen");

@@ -1,0 +1,25 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "servidor": "http-server -c-1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitteridev/Pokedex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitteridev/Pokedex/issues"
+  },
+  "homepage": "https://github.com/vitteridev/Pokedex#readme",
+  "devDependencies": {
+    "cypress": "^9.5.0"
+  }
+}
