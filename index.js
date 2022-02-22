@@ -117,11 +117,7 @@ function pintarColoresAtributos() {
   });
 }
 
-function main() {
-  obtenerPokemones(API);
-  manejarEventos($botonera);
-  $btnSiguiente.onclick = traerPaginaSiguiente;
-  $btnAnterior.onclick = traerPaginaAnterior;
-}
-
-main();
+obtenerPokemones(API);
+manejarEventos($botonera);
+$btnSiguiente.onclick = traerPaginaSiguiente;
+$btnAnterior.onclick = traerPaginaAnterior;
